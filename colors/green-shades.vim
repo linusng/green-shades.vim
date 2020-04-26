@@ -11,7 +11,7 @@ endif
 let colors_name = "green-shades"
 
 " Basics
-hi Normal       guifg=#00d000  guibg=#001000  ctermfg=darkgreen      ctermbg=black
+hi Normal       guifg=#00d000  guibg=#001000  ctermfg=82      ctermbg=black
 " for normal texts
 hi ErrorMsg     guifg=#ffffff  guibg=#ff0000  ctermfg=white      ctermbg=red
 hi Visual       guifg=#001000  guibg=#009000  ctermfg=darkgreen  ctermbg=darkgrey
@@ -51,11 +51,11 @@ hi StringConstant guifg=#008800 		ctermfg=49
 
 hi Special      guifg=#30ff30                 ctermfg=149
 " for brackets/colons etc colros
-hi Identifier   guifg=#007000                 ctermfg=blue
+hi Identifier   guifg=#007000                 ctermfg=148
 " for functions/methods and classes
-hi Statement    guifg=#40ff40                 ctermfg=green                        gui=none
+hi Statement    guifg=#40ff40                 ctermfg=72                        gui=none
 " for class def try except etc colors
-hi PreProc      guifg=#00c000                 ctermfg=green
+hi PreProc      guifg=#00c000                 ctermfg=72
 " for import and from colors
 hi Type         guifg=#30ff30                 ctermfg=154                   gui=none
 " for ValueError colors
